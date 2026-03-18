@@ -1,0 +1,21 @@
+.menu {
+    display: grid;
+    padding: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.option {
+    height: 70px;
+    background-color: yellow;
+    color: black;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+}
+
+.option:hover {
+    border: 5px solid rgb(0 0 0 / .3)
+}
