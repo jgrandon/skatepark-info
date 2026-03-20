@@ -1,8 +1,9 @@
 
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import Danger from "@/pages/home/danger"
 import Purpouse from "@/pages/home/purpouse"
+import Danger from "@/pages/home/danger"
+import Summary from "@/pages/home/summary"
 import Disclaimer from "@/pages/home/disclaimer"
 
 const geistSans = Geist({
@@ -20,8 +21,9 @@ export default function Home() {
     <div
       className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
     >
-      <Danger />
       <Purpouse />
+      <Danger />
+      <Summary />
       <Disclaimer />
       {/*}
         <Image
