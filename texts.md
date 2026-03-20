@@ -1,19 +1,18 @@
 propiosito:
 informar y ayudar a proteger a los niños de los multiples peligros presentes en un skatepark
 
-- implementacion:
+## implementacion:
   protecciones: - casco - rodilleras - coderas - muñequeras
-- uso del espacio
+## uso del espacio
   - uso preferente para skates, patines y bmx
   - no te quedes quieto en medio del skatepark!
   - no sentarse en los spots
   - tu hijo puede usar scooter pero debe tener las proteccione necesarias y la conciencia de que el lugar en el que está es por peligroso por la naturaleza de los deportes que se practican
-  -
-- uso compartido del espacio:
-  tener claro un proposito
-  observar los desplazamientos de los demas para establecer su trayectoria
-  esperar tu turno para tirarte
-  descansar en un lugar donde no impidas a los demas usar los spots
+## uso compartido del espacio:
+  - tener claro un proposito
+  - observar los desplazamientos de los demas para establecer su trayectoria
+  - esperar tu turno para tirarte
+  - descansar en un lugar donde no impidas a los demas usar los spots
 
 en un skatepark el objetivo suele ser practicar trucos, a diferencia de un velodromo o ciclovia donde solo nos desplazamos, el skatepark es una especie de gimnasio en donde podemos practicar de forma segura desde los trucos mas basicos (como saltar un obstaculo) hasta lineas complejas desplazandose por el skatepark completo
 
@@ -29,4 +28,6 @@ en un skatepark el objetivo suele ser practicar trucos, a diferencia de un velod
   plano: cambio recto en el nivel del suelo sin curva
   spike: dos planos posicionados de espalda entre ellos de tal manera que forman una punta
 
+
+## DISCLAIMER
 es importante destacar que no estas obligado a tomar ninguna de estas recomendaciones, pero si las sigues garantizas la seguridad de tu hijo y la buena relacion con las demas personas que usan el espacio

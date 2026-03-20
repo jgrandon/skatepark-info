@@ -1,8 +1,6 @@
-import Head from "next/head";
-import Image from "next/image";
+
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-
 import Danger from "@/pages/home/danger"
 import Purpouse from "@/pages/home/purpouse"
 import Disclaimer from "@/pages/home/disclaimer"
