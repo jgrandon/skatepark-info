@@ -4,13 +4,31 @@
     margin-bottom: 1rem;
 }
 .page {
-    font-size: 1rem;
+    font-size: 1.25rem;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 .subtitle {
     font-weight: 600;
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     margin-bottom: 10px;
+}
+.linkWrapper {
+    color: yellow;
+    list-style-type: none;
+    @media (max-width: 800px) {
+    }
+}
+.link {
+    margin: 20px 0;
+    border: 2px white solid;
+    padding: 10px;
+    @media (max-width: 800px) {
+    }
+}
+.link:hover {
+    cursor: pointer;
+    @media (max-width: 800px) {
+    }
 }

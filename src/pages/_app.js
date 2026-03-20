@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
 import Menu from '@/components/menu'
-import styles from '@/pages/landing.module.css'
+import styles from '@/pages/app.module.css'
 
 export default function App({ Component, pageProps }) {
   return (  
