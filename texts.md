@@ -6,6 +6,7 @@ informar y ayudar a proteger a los niños de los multiples peligros presentes en
 ## uso del espacio
   - uso preferente para skates, patines y bmx
   - no te quedes quieto en medio del skatepark!
+  - ojo con la vela, puedes mancharte
   - no sentarse en los spots
   - tu hijo puede usar scooter pero debe tener las proteccione necesarias y la conciencia de que el lugar en el que está es por peligroso por la naturaleza de los deportes que se practican
 ## uso compartido del espacio:
@@ -23,7 +24,7 @@ en un skatepark el objetivo suele ser practicar trucos, a diferencia de un velod
   baranda: fierros horizontales de metal usados principalmente para deslizar. Tampoco son asientos
   quarter: cambio en la geometria del suelo formando una curva circular
   coping: fierro circular que suelen tener los quarters en el borde
-  spine: dos quarters conectados por sus espaldar con un coping
+  spine: dos quarters conectados por sus "espaldas" con un coping
   miniramp: dos cuarters enfrentados en forma de U
   plano: cambio recto en el nivel del suelo sin curva
   spike: dos planos posicionados de espalda entre ellos de tal manera que forman una punta
