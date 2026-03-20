@@ -2,9 +2,6 @@ import styles from "@/styles/Home.module.css";
 
 export default function Danger () {
     return <div>
-        <div className={styles.title}>
-            Protege a tus hijos y Aprende a convivir en un skatepar
-        </div>
         <div>
             <div className={styles.subtitle}>
             El Peligro:
