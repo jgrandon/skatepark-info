@@ -17,17 +17,17 @@ informar y ayudar a proteger a los niños de los multiples peligros presentes en
 
 en un skatepark el objetivo suele ser practicar trucos, a diferencia de un velodromo o ciclovia donde solo nos desplazamos, el skatepark es una especie de gimnasio en donde podemos practicar de forma segura desde los trucos mas basicos (como saltar un obstaculo) hasta lineas complejas desplazandose por el skatepark completo
 
-- vocabulario skater:
-  spot: cualquier baranda, cajon, quarter o cambio en la superficie que pueda ser utilizado para hacer un truco.
-  linea: secuencia de trucos usando varios spots
-  cajon: si tiene borde de metal, no es un asiento, es un cajon o manualera y se usa para deslizar o para subirse sobre él
-  baranda: fierros horizontales de metal usados principalmente para deslizar. Tampoco son asientos
-  quarter: cambio en la geometria del suelo formando una curva circular
-  coping: fierro circular que suelen tener los quarters en el borde
-  spine: dos quarters conectados por sus "espaldas" con un coping
-  miniramp: dos cuarters enfrentados en forma de U
-  plano: cambio recto en el nivel del suelo sin curva
-  spike: dos planos posicionados de espalda entre ellos de tal manera que forman una punta
+vocabulario skater:
+-spot: cualquier baranda, cajon, quarter o cambio en la superficie que pueda ser utilizado para hacer un truco.
+- linea: secuencia de trucos usando varios spots
+- cajon: si tiene borde de metal, no es un asiento, es un cajon o manualera y se usa para deslizar o para subirse sobre él
+- baranda: fierros horizontales de metal usados principalmente para deslizar. Tampoco son asientos
+- quarter: cambio en la geometria del suelo formando una curva circular
+- coping: fierro circular que suelen tener los quarters en el borde
+- spine: dos quarters conectados por sus "espaldas" con un coping
+- miniramp: dos cuarters enfrentados en forma de U
+- plano: cambio recto en el nivel del suelo sin curva
+- spike: dos planos posicionados de espalda entre ellos de tal manera que forman una punta
 
 
 ## DISCLAIMER
