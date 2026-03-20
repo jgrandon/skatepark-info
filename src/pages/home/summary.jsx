@@ -18,7 +18,10 @@ export default function Summary () {
 
 function Topic (props) {
     return (<li className={styles.link}>
-        <Link href={props.to ?? ''}>
+        <Link
+        href={props.to ?? ''}
+        className={styles.linkAnchor}
+        >
             {props.children}
         </Link>
     </li>)
