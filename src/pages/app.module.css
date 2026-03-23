@@ -5,12 +5,14 @@
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
+    position: absolute
 }
 
 .contentWrapper {
     width: 100%;
-    display: flex; 
+    display: flex;
     justify-content: center;
+    padding: 20px 0px;
 }
 .content {
     padding: 10px 40px;
