@@ -1,11 +1,30 @@
 .term {
     font-weight: 600;
     text-decoration: underline;
+    position: relative
 }
 .term:hover {
     color: yellow;
     cursor: pointer;
 }
 .tooltip {
-    /* position */
+  position: absolute;
+  z-index: 10;
+  background: #eee1ad;
+  top: 35px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  color: black;
+
+  display: grid;
+  grid-template-columns: 7fr 1fr;
+  grid-template-rows: 1fr 5fr;
+}
+
+.tooltipCloseButton {
+    text-align: right;
+    font-weight: 600px;
+}
+.tooltipCloseButton:hover {
+    cursor: pointer;
 }

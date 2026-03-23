@@ -22,12 +22,18 @@ Requerimientos:
 
 Tareas
 
-- [ ] Crear un componente funcione como wrapper de la palabra
-- [ ] css:
-  + [ ] palabra en negrita y subrayada
-  + [ ] cambio de color on hover
-  + [ ] cambio de cursor on hover
-- [ ] crear componente de tooltip flotante
+- [x] Crear un componente funcione como wrapper de la palabra
+- [x] css:
+  + [x] palabra en negrita y subrayada
+  + [x] cambio de color on hover
+  + [x] cambio de cursor on hover
+- [x] crear componente de tooltip flotante
+---
+### This is not code
+### this is another kind of section
+#### im learning to use markdown
+
+    this is pure code
 
 #
 #
