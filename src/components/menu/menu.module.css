@@ -1,21 +1,79 @@
-.menu {
-    display: grid;
-    padding: 50px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 15px;
-}
 
+.menu {
+    --main-color: rgb(175, 175, 31);
+    --border-color: black;
+    --font-color: black;
+    display: grid;
+    width: 100%;
+    height: 100px;
+    padding: 50px;
+    grid-template-columns: 1fr;
+    /*gap: 15px;*/
+    background-color: var(--main-color);
+    @media (max-width: 800px) {
+        top: 0;
+        height: 70px;
+        position: sticky;
+        padding: 0px;
+    }
+}
+.mobileMenu {
+    display: none;
+
+    @media (max-width: 800px) {
+        grid-template-columns: 1fr 7fr 1fr;
+        width: 100%;
+        display: grid;
+    }
+}
 .option {
     height: 70px;
-    background-color: yellow;
+    background-color: var(--main-color);
     color: black;
     padding: 20px 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center
+    text-align: center;
+    border: 2px solid var(--border-color);
 }
-
 .option:hover {
-    border: 5px solid rgb(0 0 0 / .3)
+    color: var(--font-color);
+    border: 5px solid rgb(black / .3);
+}
+.optionsWrapper {
+    background-color: var(--main-color);
+    z-index: 20;
+    display: grid;
+    padding: 50px;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    /* testing */
+    border: 2px solid var(--border-color);
+    @media (max-width:800px) {
+        padding: 0px;
+        gap: 0px;
+    } 
+}
+.button {
+    color: var(--font-color);
+    background-color: var(--main-color);
+    border: var(--border-color) 2px solid;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pageName { 
+    color: var(--font-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 1.75rem;
+}
+.pageName::first-letter {
+    text-transform: capitalize;
+    
 }
