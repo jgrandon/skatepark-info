@@ -1,25 +1,41 @@
 
-import { Geist, Geist_Mono } from "next/font/google"
+//import { Geist, Geist_Mono, Saira, Fjalla_One } from "next/font/google"
 import styles from "@/styles/Home.module.css"
 import Purpouse from "@/pages/home/purpouse"
 import Danger from "@/pages/home/danger"
 import Summary from "@/pages/home/summary"
 import Disclaimer from "@/pages/home/disclaimer"
 
-const geistSans = Geist({
+/*
+const font1 = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 })
 
-const geistMono = Geist_Mono({
+const font2 = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 })
+ 
 
+const font1 = Saira({
+  variable: "--font-saira",
+  weight: "400",
+  subsets: ["latin"],
+})
+
+const font2 = Fjalla_One({
+  //variable: "--font-fjalla-one",
+  weight: "400",
+  subsets: ["latin"],
+})
+
+*/
 export default function Home() {
   return (
     <div
-      className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
+      //className={`${styles.page} ${font1.variable} ${font2.variable}`}
+      className={styles.page}
     >
       <Purpouse />
       <Danger />

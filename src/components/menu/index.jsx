@@ -3,14 +3,19 @@ import { useState, useEffect } from 'react'
 import styles from '@/components/menu/menu.module.css'
 import { FaBars as MenuIcon } from "react-icons/fa";
 
+const __TITLES__ = {
+    'home': 'Paginal Principal',
+    'protections': 'Protecciones',
+    'use': 'Uso del espacio',
+    'shared-use': 'Uso compartido del espacio',
+    'vocabulary': 'Terminologia'
+}
+
 export default function Menu () {
     const [isOpen, setIsOpen] = useState(false)
     const [section, setSection] = useState('noNE')
     //location  .pathname?.split('/')[1]
 
-    const titles = {
-        'home': 'Paginal Principal',
-    }
 
     useEffect(() => {
         const location = window
@@ -37,7 +42,7 @@ export default function Menu () {
                 title="Menu"/>
             </button>
             <div className={styles.pageName}>
-                {titles[section ?? 'home']}
+                {__TITLES__[section ?? 'home']}
             </div>
             <div></div>
         </div>
@@ -47,11 +52,11 @@ export default function Menu () {
         className={styles.optionsWrapper}
         style={{ display: isOpen ? 'grid' : 'none' }}
         >
-            <Option to={"/home"}>Home</Option>
-            <Option to={"/protections"}>Protecciones</Option>
-            <Option to={"/use"}>Uso del espacio</Option>
-            <Option to={"/shared-use"}>Uso compartido del espacio</Option> 
-            <Option to={"/vocabulary"}>Terminologia</Option> 
+            <Option to={"home"} />
+            <Option to={"protections"} />
+            <Option to={"use"} />
+            <Option to={"shared-use"} />
+            <Option to={"vocabulary"} />
         </div>
     </div>
 }
@@ -59,8 +64,8 @@ export default function Menu () {
 const Option = (props) => (
     <a 
     className={styles.option}
-    href={props.to ?? ''}
+    href={`/${props.to}`}
     >
-        {props.children}
+        {__TITLES__[props.to]}
     </a>
 )
