@@ -1,4 +1,5 @@
 import styles from "@/styles/Home.module.css"
+import { Slang } from '@/components/skate-slang'
 
 export default function Disclaimer () {
     return <div>
@@ -6,7 +7,7 @@ export default function Disclaimer () {
                 ¡OJO!
             </div>
             <div>
-                Es importante destacar que no estas obligado a tomar ninguna de estas recomendaciones, pero si las sigues garantizas la seguridad de tu hijo y la buena relacion con las demas personas que usan el espacio
+                Es importante destacar que no estas obligado a tomar ninguna de estas recomendaciones, pero si las sigues garantizas la seguridad de tu hijo y la buena relacion con las demas personas que usan el espacio. <Slang word="baranda"/>
             </div>
         </div>
 }

@@ -24,6 +24,9 @@ export function Slang (props) {
     ref={ref}
     className={styles.term}
     onClick={handleClick}
+    style={{
+        color: open ? 'yellow' : 'white'
+    }}
     >
         {word}
     </span>

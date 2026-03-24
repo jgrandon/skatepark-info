@@ -5,7 +5,7 @@ export function Library (word) {
 
 const archive = {
     "skater": { // just for testing
-        content: "Esto es un texto de prueba",
+        content: "Cualquier baranda, cajon, quarter o cambio en la superficie que pueda ser utilizado para hacer un truco.",
         images: [
             'skate-1.jpeg',
             'quarter-1.jpeg',

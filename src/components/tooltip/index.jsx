@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { useTooltip } from '@/providers/tooltip'
 import styles from './tooltip.module.css'
 import { Library } from '../library'
-
+import { Images }from './images'
 
 export function Tooltip ()
 {
@@ -69,27 +69,20 @@ export function Tooltip ()
             top: anchorPosition + 30
         }}
         >
-            <div>
-            {word}
-            </div>
+            <div className={styles.title}>{word}</div>
+
             <div
             className={styles.tooltipCloseButton}
             onClick={() => closeTooltip()}
             >X</div>
-            <div className={styles.content}>
-                <div>
-                {wordDefinition?.content}
+            
+            <div className={styles.contentWrapper}>
+                <div className={styles.content}>{wordDefinition?.content}</div>
 
-                </div>
-                <div>
-                    {wordDefinition?.images.map(image => (
-                        <Image 
-                        src={`/library/${image}`}
-                        width={50}
-                        height={50}
-                        />
-                    ))}
-                </div>
+                { !wordDefinition?.images 
+                    ? null
+                    : <Images data={wordDefinition.images}/>
+                }
             </div>
         </div>
     )
