@@ -43,6 +43,7 @@ Requerimientos:
 - [x] hacer que el tooltip mantenga posicion al hacer scroll
 - [x] tomar palabra desde el contenido del ref
 - [ ] crear biblioteca de palabras
+- [ ] añadir secciones de imagenes al tooltip
  
 
 ---

@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react'
+import Image from 'next/image'
 import { useTooltip } from '@/providers/tooltip'
 import styles from './tooltip.module.css'
+import { Library } from '../library'
+
 
 export function Tooltip ()
 {
@@ -35,7 +38,7 @@ export function Tooltip ()
         const minRenderingThreshold = 70
         const maxRenderingThreshold = 700
         const newPosition = anchorRef.current?.getBoundingClientRect().y
-        console.log('newPosition', newPosition)
+        // console.log('newPosition', newPosition)
 
         setAnchorPosition(newPosition)
 
@@ -50,14 +53,13 @@ export function Tooltip ()
         if (newPosition <= minRenderingThreshold) {
             hideTooltip() 
         }
-
-        
-
     }
 
     //const anchorPosition = anchorRef.current?.getBoundingClientRect()
     
-    console.log('anchorPosition', anchorPosition)
+    // console.log('anchorPosition', anchorPosition)
+
+    const wordDefinition = Library(word)
     
     return (
         <div
@@ -74,13 +76,20 @@ export function Tooltip ()
             className={styles.tooltipCloseButton}
             onClick={() => closeTooltip()}
             >X</div>
-            <div>
-                bla bla bla bla bla bla bla bla
-                bla bla bla bla bla bla bla bla
-                bla bla bla bla bla bla bla bla
-                bla bla bla bla bla bla bla bla
-                bla bla bla bla bla bla bla bla
-                bla bla bla bla bla bla bla bla
+            <div className={styles.content}>
+                <div>
+                {wordDefinition?.content}
+
+                </div>
+                <div>
+                    {wordDefinition?.images.map(image => (
+                        <Image 
+                        src={`/library/${image}`}
+                        width={50}
+                        height={50}
+                        />
+                    ))}
+                </div>
             </div>
         </div>
     )
