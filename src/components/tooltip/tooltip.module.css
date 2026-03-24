@@ -12,9 +12,7 @@
   border-radius: 10px;
 
   display: grid;
-  grid-template-columns: 7fr 1fr;
-  grid-template-rows: 1fr 5fr;
-
+  grid-template-columns: 7fr 1fr ;
 }
 
 .tooltipCloseButton {
@@ -23,4 +21,10 @@
 }
 .tooltipCloseButton:hover {
     cursor: pointer;
+}
+.content {
+    grid-column: span 8;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr;
 }
