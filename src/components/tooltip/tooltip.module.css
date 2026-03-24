@@ -1,0 +1,26 @@
+.tooltip {
+  position: fixed;
+  /* horizontal center */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+
+  width: 300px;
+  background: #eee1ad;
+  color: black;
+  padding: 5px 15px;
+  border-radius: 10px;
+
+  display: grid;
+  grid-template-columns: 7fr 1fr;
+  grid-template-rows: 1fr 5fr;
+
+}
+
+.tooltipCloseButton {
+    text-align: right;
+    font-weight: 600px;
+}
+.tooltipCloseButton:hover {
+    cursor: pointer;
+}

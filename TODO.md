@@ -20,7 +20,11 @@ Requerimientos:
 
 ##
 
-Tareas
+### Tareas
+ 
+---
+
+#### Etapa 1
 
 - [x] Crear un componente funcione como wrapper de la palabra
 - [x] css:
@@ -28,12 +32,19 @@ Tareas
   + [x] cambio de color on hover
   + [x] cambio de cursor on hover
 - [x] crear componente de tooltip flotante
----
-### This is not code
-### this is another kind of section
-#### im learning to use markdown
 
-    this is pure code
+---
+
+#### Etapa 2
+
+- [x] Crear un provider para gestionar tooltip
+- [x] Implementar provider en disclaimer
+- [x] hacer que el tooltip aparezca debajo de la palabra
+- [ ] hacer que el tooltip mantenga posicion al hacer scroll
+- [ ] crear biblioteca de palabras
+ 
+
+---
 
 #
 #

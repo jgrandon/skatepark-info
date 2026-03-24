@@ -9,7 +9,7 @@ export default function Danger () {
             </div>
             <div>
             El skatepark es un lugar de aprendizaje y de mucho disfrute pero que, dado la naturaleza de los deportes extremos, es siempre propenso a accidentes.
-            Una tabla que sale volando, otro <Slang>skater</Slang> que se nos cruza, poco control del truco o maniobra que estamos intentando son solo algunas de las situaciones mas comunes dentro del skatepark.
+            Una tabla que sale volando, otro <Slang word="skater" /> que se nos cruza, poco control del truco o maniobra que estamos intentando son solo algunas de las situaciones mas comunes dentro del skatepark.
             </div>
         </div>
     </div>

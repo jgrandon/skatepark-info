@@ -1,45 +1,31 @@
-import { useState } from 'react'
+import { useRef } from 'react'
+import { Tooltip } from '../tooltip'
+import { useTooltip } from '@/providers/tooltip';
 import styles from './skate-slang.module.css'
 
 export function Slang (props) {
     const { word } = props
-    const [isTooltipOpen, setTooltipOpen] = useState(false)
+    const ref = useRef()
+    const {
+        open,
+        word: tooltipWord,
+        openTooltip,
+        closeTooltip,
+    } = useTooltip()
 
-    console.log('isTooltipOpen =>', isTooltipOpen)
+    console.log('open =>', open)
+    console.log('tooltipWord =>', tooltipWord)
     
+    const handleClick = (event) => {
+        if (open) closeTooltip()
+        else openTooltip(ref, word)
+    } 
+
     return <span 
+    ref={ref}
     className={styles.term}
-    onClick={() => setTooltipOpen(!isTooltipOpen)}
+    onClick={handleClick}
     >
-        <Tooltip isOpen={isTooltipOpen} word={word}/>
         {word}
     </span>
-}
-
-
-
-function Tooltip (props) {
-    const { isOpen = false, word } = props
-
-    return (
-        <div
-        className={styles.tooltip}
-        style={{
-            display: isOpen ? 'grid' : 'none'
-        }}
-        >
-            <div>
-            {word}
-            </div>
-            <div className={styles.tooltipCloseButton}>X</div>
-            <div>
-                bla bla bla bla bla bla bla bla
-                bla bla bla bla bla bla bla bla
-                bla bla bla bla bla bla bla bla
-                bla bla bla bla bla bla bla bla
-                bla bla bla bla bla bla bla bla
-                bla bla bla bla bla bla bla bla
-            </div>
-        </div>
-    )
 }

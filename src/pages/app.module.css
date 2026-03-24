@@ -24,3 +24,7 @@
         width: 95%;
     }
 }
+.icon {
+    background-color: white;
+    border-radius: 50%;
+}
