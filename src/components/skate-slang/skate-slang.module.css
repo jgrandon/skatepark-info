@@ -1,7 +1,6 @@
 .term {
     font-weight: 600;
     text-decoration: underline;
-    position: relative
 }
 .term:hover {
     color: yellow;

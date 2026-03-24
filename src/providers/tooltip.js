@@ -6,9 +6,10 @@ import { Tooltip } from '@/components/tooltip'
 const TooltipContext = createContext({
     open: false,
     word: '',
+    anchorRef: { current: null },
     openTooltip: () => {},
     closeTooltip: () => {},
-    anchorRef: { current: null },
+    hideTooltip: () => {},
 })
 
 export const useTooltip = () => useContext(TooltipContext);
@@ -16,40 +17,36 @@ export const useTooltip = () => useContext(TooltipContext);
 export function TooltipProvider({ children })
 {
     const ref = useRef(null)
-    const [state, setState] = useState({
-        open: false,
-        word: ''
-    })
+    const [open, setOpen] = useState(false)
+    const [word, setWord] = useState('')
 
-    const openTooltip = (anchorRef, word) => {
-        setState({
-            open: true,
-            word
-        })
+    const openTooltip = (anchorRef) => {
+        setOpen(true)
+        setWord(anchorRef.current?.innerHTML)
         ref.current = anchorRef.current
     };
 
-    const closeTooltip = () => {
-        setState({
-            open: false,
-            word: '',
-        })
-        ref.current = null
+    const hideTooltip = () => setOpen(false)
 
-    };
+    const closeTooltip = () => {
+        setOpen(false) 
+        setWord('')
+        ref.current = null
+    }
 
     const value = {
-        open: state.open,
-        word: state.word,
+        open,
+        word,
+        anchorRef: ref,
         openTooltip,
         closeTooltip,
-        anchorRef: ref,
+        hideTooltip,
     }
 
     return (
         <TooltipContext.Provider value={value}>
             <Tooltip/>
-        {children}
+            {children}
         </TooltipContext.Provider>
     )
 }

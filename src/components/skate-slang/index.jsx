@@ -18,9 +18,8 @@ export function Slang (props) {
     
     const handleClick = (event) => {
         if (open) closeTooltip()
-        else openTooltip(ref, word)
-    } 
-
+        else openTooltip(ref)
+    }
     return <span 
     ref={ref}
     className={styles.term}
