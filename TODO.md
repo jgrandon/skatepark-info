@@ -52,7 +52,7 @@ Requerimientos:
 - [x] crear pagina vocabulary
 - [x] listar todas las palabras dentro de vocabulary
 - [x] listar imagenes por cada palabra
-- [ ] generar algun elemento que envuelva todo el texto y envuelva automaticamente en el componente slang las palabras del contenido que tengan match con la libreria
+- [x] generar algun elemento que envuelva todo el texto y envuelva automaticamente en el componente slang las palabras del contenido que tengan match con la libreria
 - [ ] modificar componente carousel para permitir dimensiones dinamicas y reutilizarlo en /vocabulary
 - [ ] dar estilos:
    - [ ] gap entre slangs

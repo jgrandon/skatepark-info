@@ -1,5 +1,6 @@
 import { archive as slangArchive } from '@/components/library'
 import styles from './vocabulary.module.css'
+import { SlangDetector } from '@/components/slang-detector'
 
 export default function VocabularyPage() {
     console.log('slangArchive', slangArchive)    
@@ -13,6 +14,7 @@ export default function VocabularyPage() {
             const slang = slangArchive[word]
             return <div className={styles.slang}>
                 <div>{word}</div>
+                <SlangDetector text={slang.content} />
                 <div>{slang.content}</div>
                 <div>
                     {slang.images.map((image, index) => (
