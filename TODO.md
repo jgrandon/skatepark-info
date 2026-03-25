@@ -50,10 +50,19 @@ Requerimientos:
 ### ETAPA 3
 
 - [x] crear pagina vocabulary
+
 - [x] listar todas las palabras dentro de vocabulary
+
 - [x] listar imagenes por cada palabra
+
 - [x] generar algun elemento que envuelva todo el texto y envuelva automaticamente en el componente slang las palabras del contenido que tengan match con la libreria
+
+- [x] modificar regex para permitir todas las palabras presentes en la libreria
+
 - [ ] modificar componente carousel para permitir dimensiones dinamicas y reutilizarlo en /vocabulary
+
+- [ ] manejar de forma independiente el indicador de abierto del tooltip y el indicador de abierto del componente slang
+
 - [ ] dar estilos:
    - [ ] gap entre slangs
    - [ ] subtitulo
@@ -62,3 +71,4 @@ Requerimientos:
 #
 #
 ## BACKLOG
+

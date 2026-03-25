@@ -1,5 +1,7 @@
 import { Slang } from '@/components/skate-slang'
 import { v4 as uuidv4 } from 'uuid'
+import { archive } from '@/components/library'
+
 export function SlangDetector ({ text }) {
     const highlight = 'baranda'
 
@@ -7,9 +9,11 @@ export function SlangDetector ({ text }) {
         return <span>{text}</span>;
     }
 
+    const exp = '(' + Object.keys(archive).join(')|(') + ')'
+
     // Use a regular expression with the 'gi' flags for global, case-insensitive matching
 //    const regex = new RegExp(`(${highlight})`, 'gi');
-    const regex = new RegExp(`(baranda)|(quarter)`, 'gi');
+    const regex = new RegExp(exp, 'gi');
 
     const parts = text.split(regex);
     
@@ -18,7 +22,7 @@ export function SlangDetector ({ text }) {
 
     return (
         <div>
-        {parts.map((part, i) => {
+        {parts.map(part => {
             // Check if the current part matches the highlight (case-insensitive)
             if (regex.test(part)) {
             return (
