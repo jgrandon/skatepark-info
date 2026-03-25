@@ -3,7 +3,7 @@ export function Library (word) {
     return archive[word] ?? null
 }
 
-const archive = {
+export const archive = {
     "skater": { // just for testing
         content: "Cualquier baranda, cajon, quarter o cambio en la superficie que pueda ser utilizado para hacer un truco.",
         images: [
