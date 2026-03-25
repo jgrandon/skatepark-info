@@ -61,7 +61,7 @@ Requerimientos:
 
 - [ ] modificar componente carousel para permitir dimensiones dinamicas y reutilizarlo en /vocabulary
 
-- [ ] manejar de forma independiente el indicador de abierto del tooltip y el indicador de abierto del componente slang
+- [x] manejar de forma independiente el indicador de abierto del tooltip y el indicador de abierto del componente slang
 
 - [ ] dar estilos:
    - [ ] gap entre slangs
