@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { useTooltip } from '@/providers/tooltip'
 import styles from './tooltip.module.css'
 import { Library } from '../library'
-import { Carousel } from '@/pages/vocabulary/carousel'
+import { Carousel } from '@/components/carousel'
 
 export function Tooltip ()
 {
