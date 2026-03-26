@@ -77,7 +77,7 @@ PD: se usa mismo componente para vocabulary y tooltip
 
 - [x] esconder seccion de imagenes cuando la palabra tiene definicion pero no imagenes asociadas 
 
-- [ ] resolver imagenes se muestran por encima del header
+- [x] resolver imagenes se muestran por encima del header
 
 #
  
