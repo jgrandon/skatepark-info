@@ -1,7 +1,7 @@
 import { archive as slangArchive } from '@/components/library'
 import styles from './vocabulary.module.css'
 import { SlangDetector } from '@/components/slang-detector'
-import { Carousel } from './carousel'
+import { Carousel } from '@/components/carousel'
 
 export default function VocabularyPage() {
     //console.log('slangArchive', slangArchive)    
