@@ -4,7 +4,7 @@ import { SlangDetector } from '@/components/slang-detector'
 import { Carousel } from './carousel'
 
 export default function VocabularyPage() {
-    console.log('slangArchive', slangArchive)    
+    //console.log('slangArchive', slangArchive)    
     
     return <div className={styles.page}>
         <div className={styles.title}>

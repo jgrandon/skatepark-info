@@ -16,8 +16,8 @@ export function Slang (props) {
         anchorRef
     } = useTooltip()
 
-    console.log('open =>', open)
-    console.log('tooltipWord =>', tooltipWord)
+    // console.log('open =>', open)
+    // console.log('tooltipWord =>', tooltipWord)
     
     useEffect(()=> {
         if (anchorRef.current != ref.current) {

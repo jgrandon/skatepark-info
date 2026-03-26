@@ -79,7 +79,17 @@ PD: se usa mismo componente para vocabulary y tooltip
 
 - [x] resolver imagenes se muestran por encima del header
 
+---
+
+### ETAPA 4 
+
+- [x] abrir puertos para probarlo desde el telefono en red local:
+    - [ ] cambiar embla a modo drag y quitar botones
+- [ ] definir textos de las secciones faltantes
+- [ ] obtener feedback de otras personas
+
 #
+
  
 #
 ## BACKLOG

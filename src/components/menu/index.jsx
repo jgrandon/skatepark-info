@@ -23,9 +23,9 @@ export default function Menu () {
             .pathname
             .split('/')[1] ?? 'home'
 
-        console.log('window =>',window
-            .location)
-        console.log('location =>',location)
+        // console.log('window =>',window
+        //     .location)
+        // console.log('location =>',location)
         if ([...location].length > 0) {
             setSection(location)
         }
