@@ -64,7 +64,7 @@ PD: se usa mismo componente para vocabulary y tooltip
 
 - [x] manejar de forma independiente el indicador de abierto del tooltip y el indicador de abierto del componente slang
 
-- [ ] dar estilos:
+- [x] dar estilos:
    - [x] gap entre slangs
    - [x] subtitulo
    - [x] organizar descripcion e imagenes
@@ -75,7 +75,7 @@ PD: se usa mismo componente para vocabulary y tooltip
 
 - [ ] agregar slang detector a textos de pagina principal
 
-- [x] esconder seccion de imagenes cuando la palabra tiene definicion pero no imagenes asociadas 
+- [x] esconder seccion de imagenes cuando la palabra tiene definicion pero no imagenes asociadas
 
 - [x] resolver imagenes se muestran por encima del header
 
