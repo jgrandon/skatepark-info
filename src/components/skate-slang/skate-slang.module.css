@@ -1,0 +1,9 @@
+.term {
+    font-weight: 600;
+    text-decoration: underline;
+    user-select: none;
+}
+.term:hover {
+    color: yellow;
+    cursor: pointer;
+}

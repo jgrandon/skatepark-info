@@ -1,0 +1,43 @@
+.tooltip {
+  position: fixed;
+  /* horizontal center */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+
+  width: 350px;
+  background: #eee1ad;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 10px;
+
+  display: grid;
+  grid-template-columns: 7fr 1fr ;
+}
+
+.tooltipCloseButton {
+    text-align: right;
+    font-weight: 600px;
+}
+.tooltipCloseButton:hover {
+    cursor: pointer;
+}
+.contentWrapper {
+    grid-column: span 8;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr;
+
+}
+.content { 
+    display:flex;
+    align-items: center;
+    font-style: italic;
+}
+.title {
+    font-weight: 600;
+}
+.title::first-letter {
+    text-transform: capitalize;
+    
+}

@@ -13,6 +13,7 @@
     display: flex;
     justify-content: center;
     padding: 20px 0px;
+    margin-bottom: 150px;
 }
 .content {
     padding: 10px 40px;
@@ -23,4 +24,8 @@
     @media (max-width:800px) {
         width: 95%;
     }
+}
+.icon {
+    background-color: white;
+    border-radius: 50%;
 }
