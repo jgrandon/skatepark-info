@@ -5,7 +5,7 @@ import styles from './carousel.module.css'
 export function Carousel ({data}) {
     const [emblaRef, emblaApi] = useEmblaCarousel({
         loop:true,
-        watchDrag: () => false
+        // watchDrag: () => false
     })
 
     return data.length === 0 ? null : (
@@ -24,15 +24,12 @@ export function Carousel ({data}) {
                             />
                         </div>
                     ))}
-                    {/*}
-                    <div className={styles.embla__slide}>Slide 1</div>
-                    <div className={styles.embla__slide}>Slice2</div>
-                    <div className={styles.embla__slide}>Slice3</div>
-                        */}
                 </div>
             </div>
+                    {/*}
             <button className={styles.embla__prev} onClick={() => emblaApi.scrollPrev()}>{"<"}</button>
             <button className={styles.embla__next} onClick={() => emblaApi.scrollNext()}>{">"}</button>
+                        */}
         </div>
     )
 }

@@ -121,7 +121,7 @@ export const archive = {
         ]
     },
     "Hit to Hit": {
-        content: "como un a frame pero un una separacion (gap) entre ellos",
+        content: "como un a A-frame pero un una separacion (gap) entre ellos",
         images: [
             'hittohit-1.jpg',
             'hittohit-2.png',
