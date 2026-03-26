@@ -8,7 +8,7 @@ export function Carousel ({data}) {
         watchDrag: () => false
     })
 
-    return(
+    return data.length === 0 ? null : (
         <div className={styles.imagesWrapper}>
             <div className={styles.embla__viewport} ref={emblaRef}>
                 <div className={styles.embla__container}>

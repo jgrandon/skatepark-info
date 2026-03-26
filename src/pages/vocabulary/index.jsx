@@ -17,7 +17,13 @@ export default function VocabularyPage() {
                 <div>
                     <div className={styles.subtitle}>{word}</div>
                 </div>
-                <div className={styles.content}>
+                <div
+                className={styles.content}
+                style={{
+                    gridTemplateColumns: slang.images.length===0
+                        ? '1fr 0fr' : '5fr 3fr'
+                }}
+                >
                     <SlangDetector text={slang.content} />
                     <div className={styles.carouselWrapper}>
                         <Carousel data={slang.images}/>

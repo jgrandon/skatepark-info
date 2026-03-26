@@ -74,8 +74,17 @@ export function Tooltip ()
             onClick={() => closeTooltip()}
             >X</div>
             
-            <div className={styles.contentWrapper}>
-                <div className={styles.content}>{wordDefinition?.content}</div>
+            <div 
+            className={styles.contentWrapper}
+            style={{
+                gridTemplateColumns: 
+                    wordDefinition?.images?.length>0 
+                    ? '1fr 1fr' : '1fr 0fr'
+            }}
+            >
+                <div className={styles.content}>
+                    {wordDefinition?.content}
+                </div>
 
                 { !wordDefinition?.images 
                     ? null

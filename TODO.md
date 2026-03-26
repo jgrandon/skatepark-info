@@ -73,9 +73,17 @@ PD: se usa mismo componente para vocabulary y tooltip
 
 - [x] corregir generacion excesiva de span vacios en slang detector
 
+- [ ] agregar slang detector a textos de pagina principal
+
+- [x] esconder seccion de imagenes cuando la palabra tiene definicion pero no imagenes asociadas 
+
+- [ ] resolver imagenes se muestran por encima del header
+
 #
  
 #
 ## BACKLOG
 
 * Abrir puertos locales para probar la aplicacion en navegador mobile con dispositivos dentro de mi red wifi
+
+* evaluar agregar videos embedidos para la definicion de linea
