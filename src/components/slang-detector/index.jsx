@@ -15,7 +15,7 @@ export function SlangDetector ({ text }) {
 //    const regex = new RegExp(`(${highlight})`, 'gi');
     const regex = new RegExp(exp, 'gi');
 
-    const parts = text.split(regex);
+    const parts = text.split(regex).filter(p => p!=undefined);
     
     console.log('parts', parts)
     console.log('regex', regex)

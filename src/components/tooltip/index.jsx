@@ -1,14 +1,12 @@
 import { useState, useEffect } from 'react'
-import Image from 'next/image'
 import { useTooltip } from '@/providers/tooltip'
 import styles from './tooltip.module.css'
 import { Library } from '../library'
-import { Images }from './images'
+import { Carousel } from '@/pages/vocabulary/carousel'
 
 export function Tooltip ()
 {
     const [anchorPosition, setAnchorPosition] = useState({})
-    const [scrollY, setScrollY] = useState(0)
 
     const {
         anchorRef,
@@ -81,7 +79,7 @@ export function Tooltip ()
 
                 { !wordDefinition?.images 
                     ? null
-                    : <Images data={wordDefinition.images}/>
+                    : <Carousel data={wordDefinition.images}/>
                 }
             </div>
         </div>

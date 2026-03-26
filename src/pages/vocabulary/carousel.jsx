@@ -1,8 +1,8 @@
 'use client'
 import useEmblaCarousel from 'embla-carousel-react'
-import styles from './images.module.css'
+import styles from './carousel.module.css'
 
-export function Images ({data}) {
+export function Carousel ({data}) {
     const [emblaRef, emblaApi] = useEmblaCarousel({
         loop:true,
         watchDrag: () => false

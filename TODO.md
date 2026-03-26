@@ -59,16 +59,23 @@ Requerimientos:
 
 - [x] modificar regex para permitir todas las palabras presentes en la libreria
 
-- [ ] modificar componente carousel para permitir dimensiones dinamicas y reutilizarlo en /vocabulary
+- [x] modificar componente carousel para permitir dimensiones dinamicas y reutilizarlo en /vocabulary (quizas usar un componente distinto para mostrar un carousel con mas de una foto. Evaluar)
+PD: se usa mismo componente para vocabulary y tooltip
 
 - [x] manejar de forma independiente el indicador de abierto del tooltip y el indicador de abierto del componente slang
 
 - [ ] dar estilos:
-   - [ ] gap entre slangs
-   - [ ] subtitulo
-   - [ ] organizar descripcion e imagenes
+   - [x] gap entre slangs
+   - [x] subtitulo
+   - [x] organizar descripcion e imagenes
+
+- [ ] recopilar y agregar al proyecto fotos de las palabras en la seccion Terminologia skater
+
+- [x] corregir generacion excesiva de span vacios en slang detector
 
 #
+ 
 #
 ## BACKLOG
 
+* Abrir puertos locales para probar la aplicacion en navegador mobile con dispositivos dentro de mi red wifi

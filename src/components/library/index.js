@@ -14,7 +14,7 @@ export const archive = {
     },
     "spot": {
         content: "Cualquier baranda, cajon, quarter o cambio en la superficie que pueda ser utilizado para hacer un truco.",
-        images: []
+        images: ['spot-1.jpeg', 'spot-2.jpg']
     },
     "linea": {
         content: "Secuencia de trucos usando varios spots",
@@ -41,7 +41,7 @@ export const archive = {
         images: []
     },
     "miniramp": {
-        content: "Dos cuarters enfrentados en forma de U",
+        content: "Dos quarters enfrentados en forma de U",
         images: []
     },
     "plano": {

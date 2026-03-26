@@ -1,6 +1,7 @@
 import { archive as slangArchive } from '@/components/library'
 import styles from './vocabulary.module.css'
 import { SlangDetector } from '@/components/slang-detector'
+import { Carousel } from './carousel'
 
 export default function VocabularyPage() {
     console.log('slangArchive', slangArchive)    
@@ -13,9 +14,16 @@ export default function VocabularyPage() {
         {Object.keys(slangArchive).map( (word) => {
             const slang = slangArchive[word]
             return <div className={styles.slang}>
-                <div>{word}</div>
-                <SlangDetector text={slang.content} />
-                <div>{slang.content}</div>
+                <div>
+                    <div className={styles.subtitle}>{word}</div>
+                </div>
+                <div className={styles.content}>
+                    <SlangDetector text={slang.content} />
+                    <div className={styles.carouselWrapper}>
+                        <Carousel data={slang.images}/>
+                    </div>
+                </div>
+                {/*
                 <div>
                     {slang.images.map((image, index) => (
                         <img 
@@ -23,6 +31,7 @@ export default function VocabularyPage() {
                         />   
                         ))}
                 </div>
+                */}
             </div>
         })}
         {/*
