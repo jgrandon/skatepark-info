@@ -4,6 +4,7 @@ export function Library (word) {
 }
 
 export const archive = {
+    /*
     "skater": { // just for testing
         content: "Cualquier baranda, cajon, quarter o cambio en la superficie que pueda ser utilizado para hacer un truco.",
         images: [
@@ -12,6 +13,7 @@ export const archive = {
             'quarter-2.jpg' 
         ]
     },
+    */
     "spot": {
         content: "Cualquier baranda, cajon, quarter o cambio en la superficie que pueda ser utilizado para hacer un truco.",
         images: [

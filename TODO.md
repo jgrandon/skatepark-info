@@ -69,11 +69,11 @@ PD: se usa mismo componente para vocabulary y tooltip
    - [x] subtitulo
    - [x] organizar descripcion e imagenes
 
-- [ ] recopilar y agregar al proyecto fotos de las palabras en la seccion Terminologia skater
+- [x] recopilar y agregar al proyecto fotos de las palabras en la seccion Terminologia skater
 
 - [x] corregir generacion excesiva de span vacios en slang detector
 
-- [ ] agregar slang detector a textos de pagina principal
+- [x] agregar slang detector a textos de pagina principal
 
 - [x] esconder seccion de imagenes cuando la palabra tiene definicion pero no imagenes asociadas
 
